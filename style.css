@@ -357,6 +357,13 @@ nav.nav-scrolled {
     .nav-links { display: none; }
     .nav-cta { display: none; }
     
+    .hero {
+        height: auto !important;
+        min-height: 50vh;
+        padding-top: 120px !important;
+        padding-bottom: 60px;
+    }
+    
     .hero-content h1 { font-size: 2.5rem; }
     h2 { font-size: 2rem; }
     
