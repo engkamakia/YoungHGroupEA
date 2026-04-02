@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | YoungHGroupEA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">YoungHGroupEA</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="charter.html">Charter</a>
+            <a href="sales.html">Sales</a>
+            <a href="maintenance.html">Maintenance</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <a href="contact.html" class="nav-cta">Inquire Now</a>
+        <div class="menu-btn"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <header class="hero" style="height: 40vh; background: linear-gradient(rgba(10, 25, 47, 0.8), rgba(10, 25, 47, 0.8)), url('https://images.unsplash.com/photo-1436491865332-7a61a109c0f2?q=80&w=2000&auto=format&fit=crop') center/cover no-repeat;">
+        <div class="hero-content">
+            <h1 style="font-size: 2.5rem;">Get in Touch</h1>
+            <p>Our team is ready to assist with your aviation needs 24/7.</p>
+        </div>
+    </header>
+
+    <section>
+        <div class="contact-grid">
+            <div>
+                <h3>Contact Information</h3>
+                <p style="color: var(--text-dim); margin-bottom: 2rem;">Reach out to us for any inquiries regarding charters, aircraft sales, or maintenance services.</p>
+                <div style="margin-bottom: 1.5rem;">
+                    <h4 style="color: var(--white); margin-bottom: 0.5rem;"><i class="fas fa-map-marker-alt" style="color: var(--accent); margin-right: 0.8rem;"></i> Location</h4>
+                    <p style="color: var(--text-dim);">Hangar 44, Wilson Airport,<br>Lang'ata Road, Nairobi, Kenya.</p>
+                </div>
+                <div style="margin-bottom: 1.5rem;">
+                    <h4 style="color: var(--white); margin-bottom: 0.5rem;"><i class="fas fa-phone" style="color: var(--accent); margin-right: 0.8rem;"></i> Phone</h4>
+                    <p style="color: var(--text-dim);">Main Office: +254 700 000 000<br>Operations: +254 711 111 111</p>
+                </div>
+                <div style="margin-bottom: 1.5rem;">
+                    <h4 style="color: var(--white); margin-bottom: 0.5rem;"><i class="fas fa-envelope" style="color: var(--accent); margin-right: 0.8rem;"></i> Email</h4>
+                    <p style="color: var(--text-dim);">info@younghalfea.com<br>sales@younghalfea.com</p>
+                </div>
+            </div>
+
+            <div class="form-box">
+                <h3 style="margin-bottom: 2rem;">Send an Inquiry</h3>
+                <form id="contact-form">
+                    <div class="form-grid">
+                        <input type="text" placeholder="Full Name" required style="width: 100%; background: var(--primary); border: 1px solid var(--glass-border); padding: 1rem; border-radius: 4px; color: var(--white);">
+                        <input type="email" placeholder="Email Address" required style="width: 100%; background: var(--primary); border: 1px solid var(--glass-border); padding: 1rem; border-radius: 4px; color: var(--white);">
+                    </div>
+                    <select required style="width: 100%; background: var(--primary); border: 1px solid var(--glass-border); padding: 1rem; border-radius: 4px; color: var(--white); margin-bottom: 1rem;">
+                        <option value="">Select Service</option>
+                        <option value="charter">Aircraft Charter</option>
+                        <option value="sales">Aircraft Sales</option>
+                        <option value="maintenance">Maintenance (AMO)</option>
+                    </select>
+                    <textarea placeholder="Tell us about your requirements..." rows="5" required style="width: 100%; background: var(--primary); border: 1px solid var(--glass-border); padding: 1rem; border-radius: 4px; color: var(--white); margin-bottom: 1.5rem;"></textarea>
+                    <button type="submit" class="nav-cta" style="width: 100%; border: none; cursor: pointer;">Send Inquiry</button>
+                </form>
+                <div id="form-success" style="display: none; background: rgba(46, 204, 113, 0.1); color: #2ecc71; padding: 1rem; border-radius: 4px; margin-top: 1rem; text-align: center;">
+                    Thank you! Your inquiry has been sent. We'll get back to you shortly.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Map Integration -->
+    <section style="padding: 0;">
+        <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=Wilson%20Airport,%20Nairobi,%20Kenya&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" style="border: none; border-top: 1px solid var(--glass-border); display: block;"></iframe>
+    </section>
+
+    <footer>
+        <div class="footer-bottom">
+            &copy; 2026 YoungHGroupEA. All rights reserved.
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
